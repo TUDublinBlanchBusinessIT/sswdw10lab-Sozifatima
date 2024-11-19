@@ -1,5 +1,5 @@
 <?php
-sesion_start();
+session_start();
 $_SESSION['subTenKG'] = $_POST['subTenKG'];
 $_SESSION['overTenKG'] = $_POST['overTenKG'];
 
