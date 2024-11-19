@@ -1,7 +1,7 @@
 <?php
 session_start();
-$_SESSION[' passengersFN'] = $_POST['firstname'];
-$_SESSION[' passengersSN'] = $_POST['surname'];
+$_SESSION['passengerFN'] = $_POST['firstname'];
+$_SESSION['passengerSN'] = $_POST['surname'];
 if (isset($_POST['luggage'])) {
     $_SESSION['luggage'] = 0;
     header('location: luggage.html');
