@@ -14,13 +14,9 @@ echo "<BR>";
 echo "<BR>";
 
 // if the luggage session variable is on
-
     //echo the amount of bags under ten kilos the passenger is bringing
-    
     echo "<BR>";
-    
     //echo the amount of bags over ten kilos the passenger is bringing
-    
 //end if block
 
 ?>
